@@ -112,8 +112,7 @@
                     <li class="col-sm-3 col-xs-6">
                         <div class="fff">
                           <div class="thumbnail ">
-                              <a class="info" href="#mybandung-lg" data-toggle="modal"><img src="images/bdg.svg" alt="" style="display:block;width: 100%"></a>
-                              <div class="overlay"></div>
+                            <a href="#"><img class="img-responsive" src="images/tangerang.svg" alt=""></a>
                           </div>
                         </div>
                     </li>
@@ -121,8 +120,7 @@
                     <li class="col-sm-3 col-xs-6">
                         <div class="fff">
                           <div class="thumbnail hovereffect">
-                            <a class="info" href="#mytasikx-lg" data-toggle="modal"> <img src="images/tasik.svg" alt=""></a>
-                            <div class="overlay"></div>
+                            <a href="#"><img class="img-responsive" src="images/bekasi.svg" alt=""></a>
                           </div>
                         </div>
                     </li>
@@ -233,6 +231,18 @@
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
           <a class="thumbnail" href="#">
             <img class="img-responsive" src="images/bogor.svg" alt="">
+          </a>
+        </div> 
+
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+          <a class="thumbnail" href="#">
+            <img class="img-responsive" src="images/tangerang.svg" alt="">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+          <a class="thumbnail" href="#">
+            <img class="img-responsive" src="images/bekasi.svg" alt="">
           </a>
         </div> 
 
