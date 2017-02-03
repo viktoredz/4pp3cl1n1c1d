@@ -73,9 +73,10 @@
 
                           <li class="col-sm-3 col-xs-6">
                             <div class="fff">
-                              <div class="thumbnail">
-                                <a href="#mybandunglg"><img class="img-responsive" src="images/pdg.svg" alt=""></a>
-                              </div>
+                                <div class="thumbnail hovereffect">
+                                  <a class="info" href="#mypdgx-lg" data-toggle="modal"> <img src="images/pdg.svg" alt=""></a>
+                                  <div class="overlay"></div>
+                                </div>
                             </div>
                         </li>
 
@@ -186,6 +187,34 @@
         </div>
       </div>
       <!-- Kapan jalan-jalan ka tasik-->
+
+      <!-- Istri ti Tasik Gareulis-->
+      <div id="mypdgx-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
+          <div class="modal-content">
+            
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Padang dan sekitarnya</h4>
+              </div>
+
+              <div class="modal-body" style="padding: 10px">
+                 <a href="http://app.eclinic.id/padang" target="_blank">Kota Padang</a> <br><br>
+                 <a target="_blank">Kota Pariaman</a> <br><br>
+                 <a target="_blank">Kota Bukittinggi</a> <br><br>
+                 <a target="_blank">Kab Payakumbuh</a> <br><br>
+                 <a target="_blank">Kab Solok</a> <br><br>
+                 <a target="_blank">Kab 50 Kota</a>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- Kapan jalan-jalan ka tasik-->
   <!-- END OF MODAL POPUP LG-->
 
 
@@ -211,8 +240,8 @@
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="#">
-            <img class="img-responsive" src="images/pdg.svg" alt="">
+          <a class="thumbnail" href="#mypdgx" data-toggle="modal">
+            <img class="img-responsive" src="images/pdg.svg" alt="" style="display:block;width: 100%">
           </a>
         </div>
 
@@ -275,6 +304,33 @@
         </div>
     </div>
   <!-- Atos ka Tasik teu Acan ?-->
+
+
+  <!-- POPUP PADANG-->
+     <div id="mypdgx" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
+          <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Padang dan sekitarnya</h4>
+              </div>
+
+              <div class="modal-body" style="padding: 10px">
+                 <a href="http://app.eclinic.id/padang" target="_blank">Kota Padang</a> <br><br>
+                 <a target="_blank">Kota Pariaman</a> <br><br>
+                 <a target="_blank">Kota Bukittinggi</a> <br><br>
+                 <a target="_blank">Kab Payakumbuh</a> <br><br>
+                 <a target="_blank">Kab Solok</a> <br><br>
+                 <a target="_blank">Kab 50 Kota</a>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+        </div>
+    </div>
+  <!-- Atos ka Padang teu Acan ?-->
 
   <!--POP up Bandoeng Again deui Vversi alit-->
       <div id="mybandung" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
