@@ -13,12 +13,12 @@
         @import url(assets/login/css/unite-gallery.css);
       /* ]]> */
     </style>
-    
-    <script type='text/javascript' src='assets/plugins/ug/jquery-11.0.min.js'></script> 
+
+    <script type='text/javascript' src='assets/plugins/ug/jquery-11.0.min.js'></script>
     <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script type='text/javascript' src='assets/plugins/ug/unitegallery.min.js'></script>  
+    <script type='text/javascript' src='assets/plugins/ug/unitegallery.min.js'></script>
     <script type='text/javascript' src='assets/plugins/ug/ug-theme-tiles.js'></script>
-  
+
     <script>
       $(document).ready(function() {
         $('.carousel').carousel({
@@ -39,14 +39,14 @@
   </head>
   <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
   <body class="homepage">
-    
+
     <!-- TAMPAK DESKTOP -->
-    <div class="container hidden-xs hidden-sm">   
+    <div class="container hidden-xs hidden-sm">
 
       <div class="page-header">
          <img class="logo-eclinic" src="assets/dist/img/logo_eclinic_kuning.svg">
          <h3 style="text-align: center;padding-top: 10px;color: white;">Selamat datang di web Portal eClinic</h3>
-      </div> 
+      </div>
 
         <div class="carousel slide" id="myCarousel">
             <div class="carousel-inner">
@@ -83,12 +83,13 @@
                         <li class="col-sm-3 col-xs-6">
                           <div class="fff">
                             <div class="thumbnail">
-                              <a href="#"><img class="img-responsive" src="images/bogor.svg" alt=""></a>
+                              <a class="info" href="#myindrax-lg" data-toggle="modal"> <img src="images/indramayu2.svg" alt=""></a>
+                              <div class="overlay"></div>
                             </div>
                           </div>
                         </li>
                       </ul>
-                </div><!-- /Slide1 --> 
+                </div><!-- /Slide1 -->
 
                 <!--Slide 2-->
                 <div class="item">
@@ -127,15 +128,15 @@
                     </li>
 
                   </ul>
-                </div> <!-- END OF SLIDE 2-->    
+                </div> <!-- END OF SLIDE 2-->
           <nav> <!-- PANAH ASMARA -->
             <ul class="">
               <span data-slide="prev" class="jssora03l hidden-xs" style="top:50px;left:52px;width:55px;height:55px;" data-autocenter="2" href="#myCarousel"></span>
-              <span  data-slide="next" class="jssora03r hidden-xs" style="top:50px;right:12px;width:55px;height:55px;" data-autocenter="2" href="#myCarousel"></span>    
+              <span  data-slide="next" class="jssora03r hidden-xs" style="top:50px;right:12px;width:55px;height:55px;" data-autocenter="2" href="#myCarousel"></span>
             </ul>
           </nav><!-- Navigasi Kanan Kiri OK -->
         </div><!-- Caroisel inner -->
-      </div><!-- myCarousel -->          
+      </div><!-- myCarousel -->
     </div><!-- /.container -->
     <!-- END OF TAMPAK DESKTOP -->
 
@@ -168,7 +169,7 @@
       <div id="mytasikx-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
           <div class="modal-content">
-            
+
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Tasikmalaya</h4>
@@ -192,7 +193,7 @@
       <div id="mypdgx-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
           <div class="modal-content">
-            
+
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Padang dan sekitarnya</h4>
@@ -217,7 +218,26 @@
       <!-- Kapan jalan-jalan ka tasik-->
   <!-- END OF MODAL POPUP LG-->
 
+  <div id="myindrax-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
+      <div class="modal-content">
 
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Indramayu</h4>
+          </div>
+
+          <div class="modal-body" style="padding: 10px">
+             <a href="http://app.eclinic.id/indramayu" target="_blank">Kabupaten Indramayu</a> <br><br>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+
+      </div>
+    </div>
+  </div>
   <!--- TAMPAK MOBILE -->
 
       <div class="visible-sm visible-xs">
@@ -261,7 +281,7 @@
           <a class="thumbnail" href="#">
             <img class="img-responsive" src="images/bogor.svg" alt="">
           </a>
-        </div> 
+        </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
           <a class="thumbnail" href="#">
@@ -273,10 +293,10 @@
           <a class="thumbnail" href="#">
             <img class="img-responsive" src="images/bekasi.svg" alt="">
           </a>
-        </div> 
+        </div>
 
       </div>
-   
+
   <footer>
     <div style="text-align: center; clear: both;padding-top: 80px">
       <p style="color: white;">Powered by:<br><img class="logo-infokes" src="assets/dist/img/logo.png" style="width:100px;"></p>
@@ -352,7 +372,7 @@
         </div>
       </div>
   <!-- SUDAH sampai disini Bandoeng wae -->
-  <script type='text/javascript' src='assets/plugins/jpopup/jquery.popup.js'></script> 
+  <script type='text/javascript' src='assets/plugins/jpopup/jquery.popup.js'></script>
   <script type="text/javascript">
       $(document).ready(function(){
         $("#gallery").unitegallery({
