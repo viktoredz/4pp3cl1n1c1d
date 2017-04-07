@@ -98,7 +98,7 @@
                     <li class="col-sm-3 col-xs-6">
                       <div class="fff">
                         <div class="thumbnail">
-                          <a href="#"><img class="img-responsive" src="images/jogjaistimewa.svg" alt=""></a>
+                          <a href="#mymajax-lg" data-toggle="modal"><img class="img-responsive" src="images/majalengka.svg" alt=""></a>
                         </div>
                       </div>
                     </li>
@@ -129,6 +129,7 @@
 
                   </ul>
                 </div> <!-- END OF SLIDE 2-->
+
           <nav> <!-- PANAH ASMARA -->
             <ul class="">
               <span data-slide="prev" class="jssora03l hidden-xs" style="top:50px;left:52px;width:55px;height:55px;" data-autocenter="2" href="#myCarousel"></span>
@@ -229,6 +230,27 @@
 
           <div class="modal-body" style="padding: 10px">
              <a href="http://app.eclinic.id/indramayu" target="_blank">Kabupaten Indramayu</a> <br><br>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="mymajax-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
+      <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Majalengka</h4>
+          </div>
+
+          <div class="modal-body" style="padding: 10px">
+             <a href="http://app.eclinic.id/majalengka" target="_blank">Kabupaten Majalengka</a> <br><br>
           </div>
 
           <div class="modal-footer">
