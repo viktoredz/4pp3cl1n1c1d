@@ -309,22 +309,22 @@
             </div>
 
             <div class="col-xs-6">
-              <a class="thumbnail" href="#" data-toggle="modal">
-                <img class="img-responsive" src="images/jkt2.svg" alt="">
+              <a class="thumbnail" href="#myindrax" data-toggle="modal">
+                <img class="img-responsive" src="images/indramayu3.svg" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-xs-12">
             <div class="col-xs-6">
-              <a class="thumbnail" href="#myindrax" data-toggle="modal">
-                <img class="img-responsive" src="images/indramayu3.svg" alt="">
+              <a class="thumbnail" href="#mymajax" data-toggle="modal">
+                <img class="img-responsive" src="images/majalengka.svg" alt="">
               </a>
             </div>
 
             <div class="col-xs-6">
-              <a class="thumbnail" href="#mymajax" data-toggle="modal">
-                <img class="img-responsive" src="images/majalengka.svg" alt="">
+              <a class="thumbnail" href="#" data-toggle="modal">
+                <img class="img-responsive" src="images/jkt2.svg" alt="">
               </a>
             </div>
           </div>
