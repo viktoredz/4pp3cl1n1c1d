@@ -130,6 +130,29 @@
                   </ul>
                 </div> <!-- END OF SLIDE 2-->
 
+                <!--Slide 3-->
+                <div class="item">
+                  <ul class="thumbnails">
+                    <li class="col-sm-3 col-xs-6">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a class="info" href="#"> <img src="images/bogor.svg" alt=""></a>
+                          <div class="overlay"></div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="col-sm-3 col-xs-6">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a class="info" href="#"> <img src="images/jogjaistimewa.svg" alt=""></a>
+                          <div class="overlay"></div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
           <nav> <!-- PANAH ASMARA -->
             <ul class="">
               <span data-slide="prev" class="jssora03l hidden-xs" style="top:50px;left:52px;width:55px;height:55px;" data-autocenter="2" href="#myCarousel"></span>
@@ -288,32 +311,44 @@
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="#">
-            <img class="img-responsive" src="images/jtk.svg" alt="">
+          <a class="thumbnail" href="#" data-toggle="modal">
+            <img class="img-responsive" src="images/jkt.svg" alt="" style="display:block;width: 100%">
           </a>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
           <a class="thumbnail" href="#myindrax" data-toggle="modal">
-            <img class="img-responsive" src="images/indramayu2.svg" alt="">
+            <img class="img-responsive" src="images/indramayu2.svg" alt="" style="display:block;width: 100%">
           </a>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
           <a class="thumbnail" href="#mymajax" data-toggle="modal">
-            <img class="img-responsive" src="images/majalengka.svg" alt="">
+            <img class="img-responsive" src="images/majalengka.svg" alt="" style="display:block;width: 100%">
           </a>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="#">
-            <img class="img-responsive" src="images/tangerang.svg" alt="">
+          <a class="thumbnail" href="#" data-toggle="modal">
+            <img class="img-responsive" src="images/tangerang.svg" alt="" style="display:block;width: 100%">
           </a>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="#">
-            <img class="img-responsive" src="images/bekasi.svg" alt="">
+          <a class="thumbnail" href="#" data-toggle="modal">
+            <img class="img-responsive" src="images/bekasi.svg" alt="" style="display:block;width: 100%">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+          <a class="thumbnail" href="#" data-toggle="modal">
+            <img class="img-responsive" src="images/jogjaistimewa.svg" alt="" style="display:block;width: 100%">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+          <a class="thumbnail" href="#" data-toggle="modal">
+            <img class="img-responsive" src="images/bogor.svg" alt="" style="display:block;width: 100%">
           </a>
         </div>
 
