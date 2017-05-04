@@ -292,63 +292,65 @@
            <h3 style="text-align: center;padding-top: 0px;color: white;">Selamat datang di web Portal eClinic</h3>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="padding:20px;">
           <a class="thumbnail" href="#mybandung" data-toggle="modal">
-            <img class="img-responsive" src="images/bdg.svg" alt="" style="display:block;width: 100%">
+            <img class="img-responsive" src="images/bdg.svg" alt="" style="display:block;max-width: 100%">
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="padding:20px;">
           <a class="thumbnail" href="#mytasikx" data-toggle="modal">
-            <img class="img-responsive" src="images/tasik.svg" alt="" style="display:block;width: 100%">
+            <img class="img-responsive" src="images/tasik.svg" alt="" style="display:block;max-width: 100%">
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="padding:20px;">
           <a class="thumbnail" href="#mypdgx" data-toggle="modal">
-            <img class="img-responsive" src="images/pdg.svg" alt="" style="display:block;width: 100%">
+            <img class="img-responsive" src="images/pdg.svg" alt="" style="display:block;max-width: 100%">
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="#" data-toggle="modal">
-            <img class="img-responsive" src="images/jkt.svg" alt="" style="display:block;width: 100%">
-          </a>
-        </div>
-
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="#myindrax" data-toggle="modal">
-            <img class="img-responsive" src="images/indramayu2.svg" alt="" style="display:block;width: 100%">
-          </a>
-        </div>
-
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="padding:20px;">
           <a class="thumbnail" href="#mymajax" data-toggle="modal">
-            <img class="img-responsive" src="images/majalengka.svg" alt="" style="display:block;width: 100%">
+            <img class="img-responsive" src="images/majalengka2.svg" alt="" style="display:block;max-width: 100%">
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <a class="thumbnail" href="#" data-toggle="modal">
-            <img class="img-responsive" src="images/tangerang.svg" alt="" style="display:block;width: 100%">
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="padding:20px;">
+          <a class="thumbnail" href="#myindrax" data-toggle="modal">
+            <img class="img-responsive" src="images/indramayu2.svg" alt="" style="display:block;max-width: 100%">
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="padding:20px;">
           <a class="thumbnail" href="#" data-toggle="modal">
-            <img class="img-responsive" src="images/bekasi.svg" alt="" style="display:block;width: 100%">
+            <img class="img-responsive" src="images/jkt.svg" alt="" style="display:block;max-width: 100%">
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="padding:20px;">
           <a class="thumbnail" href="#" data-toggle="modal">
-            <img class="img-responsive" src="images/jogjaistimewa.svg" alt="" style="display:block;width: 100%">
+            <img class="img-responsive" src="images/tangerang.svg" alt="" style="display:block;max-width: 100%">
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+
+
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="padding:20px;">
           <a class="thumbnail" href="#" data-toggle="modal">
-            <img class="img-responsive" src="images/bogor.svg" alt="" style="display:block;width: 100%">
+            <img class="img-responsive" src="images/bekasi.svg" alt="" style="display:block;max-width: 100%">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="padding:20px;">
+          <a class="thumbnail" href="#" data-toggle="modal">
+            <img class="img-responsive" src="images/jogjaistimewa.svg" alt="" style="display:block;max-width: 100%">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="padding:20px;">
+          <a class="thumbnail" href="#" data-toggle="modal">
+            <img class="img-responsive" src="images/bogor.svg" alt="" style="display:block;max-width: 100%">
           </a>
         </div>
 
