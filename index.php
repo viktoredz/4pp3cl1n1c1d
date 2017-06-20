@@ -146,6 +146,15 @@
                         </div>
                       </div>
                     </li>
+
+                    <li class="col-sm-3 col-xs-6">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a class="info" href="#ciamis-lg" data-toggle="modal"> <img src="images/ciamis.svg" alt=""></a>
+                          <div class="overlay"></div>
+                        </div>
+                      </div>
+                    </li>
                   </ul>
                 </div>
 
@@ -279,6 +288,27 @@
       </div>
     </div>
   </div>
+
+  <div id="ciamis-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
+      <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Ciamis</h4>
+          </div>
+
+          <div class="modal-body" style="padding: 10px">
+             <a href="http://app.eclinic.id/ciamis" target="_blank">Kabupaten Ciamis</a> <br><br>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+
+      </div>
+    </div>
+  </div>
   <!--- TAMPAK MOBILE -->
       <div class="visible-sm visible-xs">
 
@@ -357,6 +387,14 @@
             </div>
           </div>
 
+          <div class="col-xs-12">
+            <div class="col-xs-6">
+              <a class="thumbnail" href="#ciamis" data-toggle="modal">
+                <img class="img-responsive" src="images/ciamis.svg" alt="">
+              </a>
+            </div>
+          </div>
+
       </div>
 
   <footer>
@@ -398,6 +436,27 @@
 
             <div class="modal-body" style="padding: 10px">
              <a href="http://app.eclinic.id/majalengka" target="_blank">Kabupaten Majalengka</a>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+  <!-- Atos ka Tasik teu Acan ?-->
+
+  <!-- POPUP MAJA-->
+     <div id="ciamis" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Ciamis</h4>
+            </div>
+
+            <div class="modal-body" style="padding: 10px">
+             <a href="http://app.eclinic.id/ciamis" target="_blank">Kabupaten Ciamis</a>
             </div>
 
             <div class="modal-footer">
