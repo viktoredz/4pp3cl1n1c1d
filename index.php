@@ -33,17 +33,12 @@
       });
     </script>
   </head>
-  <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
   <body class="homepage">
-
-    <!-- TAMPAK DESKTOP -->
     <div class="container hidden-xs hidden-sm">
-
       <div class="page-header">
          <img class="logo-eclinic" src="assets/dist/img/logo_eclinic_kuning.svg">
          <h3 style="text-align: center;padding-top: 10px;color: white;">Selamat datang di web Portal eClinic</h3>
       </div>
-
         <div class="carousel slide" id="myCarousel">
             <div class="carousel-inner">
 
@@ -85,9 +80,7 @@
                           </div>
                         </li>
                       </ul>
-                </div><!-- /Slide1 -->
-
-                <!--Slide 2-->
+                </div>
                 <div class="item">
                   <ul class="thumbnails">
 
@@ -124,9 +117,7 @@
                     </li>
 
                   </ul>
-                </div> <!-- END OF SLIDE 2-->
-
-                <!--Slide 3-->
+                </div> 
                 <div class="item">
                   <ul class="thumbnails">
                     <li class="col-sm-3 col-xs-6">
@@ -158,19 +149,15 @@
                   </ul>
                 </div>
 
-          <nav> <!-- PANAH ASMARA -->
+          <nav>
             <ul class="">
               <span data-slide="prev" class="jssora03l hidden-xs" style="top:50px;left:52px;width:55px;height:55px;" data-autocenter="2" href="#myCarousel"></span>
               <span  data-slide="next" class="jssora03r hidden-xs" style="top:50px;right:12px;width:55px;height:55px;" data-autocenter="2" href="#myCarousel"></span>
             </ul>
-          </nav><!-- Navigasi Kanan Kiri OK -->
-        </div><!-- Caroisel inner -->
-      </div><!-- myCarousel -->
-    </div><!-- /.container -->
-    <!-- END OF TAMPAK DESKTOP -->
-
-  <!-- MODAL FOR POP UP-->
-    <!-- Bandung Poenya-->
+          </nav>
+        </div>
+      </div>
+    </div>
       <div id="mybandung-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
           <div class="modal-content">
@@ -190,11 +177,9 @@
                 <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
               </div>
           </div>
-      </div> <!-- END OF MODAL DIALOG-->
       </div>
-      <!-- Atosan nu Bandoeng-->
+      </div>
 
-      <!-- Istri ti Tasik Gareulis-->
       <div id="mytasikx-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
           <div class="modal-content">
@@ -216,9 +201,6 @@
           </div>
         </div>
       </div>
-      <!-- Kapan jalan-jalan ka tasik-->
-
-      <!-- Istri ti Tasik Gareulis-->
       <div id="mypdgx-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
           <div class="modal-content">
@@ -244,9 +226,6 @@
           </div>
         </div>
       </div>
-      <!-- Kapan jalan-jalan ka tasik-->
-  <!-- END OF MODAL POPUP LG-->
-
   <div id="myindrax-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
     <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
       <div class="modal-content">
@@ -299,7 +278,7 @@
           </div>
 
           <div class="modal-body" style="padding: 10px">
-			 <a target="_blank">Kota Bekasi</a> <br><br> 
+			 <a href="http://app.eclinic.id/bekasi" target="_blank">Kota Bekasi</a> <br><br>
              <a href="http://app.eclinic.id/kabbekasi" target="_blank">Kabupaten Bekasi</a> <br><br>
           </div>
 
@@ -333,7 +312,6 @@
   </div>
   
   
-  <!--- TAMPAK MOBILE -->
       <div class="visible-sm visible-xs">
 
           <div class="page-header col-xs-12">
@@ -427,7 +405,6 @@
     </div>
   </footer>
 
-  <!-- POPUP TASIK-->
      <div id="mytasikx" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
           <div class="modal-content">
@@ -447,9 +424,6 @@
           </div>
         </div>
     </div>
-  <!-- Atos ka Tasik teu Acan ?-->
-
-  <!-- POPUP MAJA-->
      <div id="mymajax" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
           <div class="modal-content">
@@ -468,9 +442,6 @@
           </div>
         </div>
     </div>
-  <!-- Atos ka Tasik teu Acan ?-->
-
-  <!-- POPUP MAJA-->
      <div id="ciamis" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
           <div class="modal-content">
@@ -499,7 +470,7 @@
             </div>
 
             <div class="modal-body" style="padding: 10px">
-			 <a target="_blank">Kota Bekasi</a> <br><br> 	
+			 <a href="http://app.eclinic.id/bekasi" target="_blank">Kota Bekasi</a> <br><br>
              <a href="http://app.eclinic.id/kabbekasi" target="_blank">Kabupaten Bekasi</a>
             </div>
 
@@ -509,9 +480,6 @@
           </div>
         </div>
     </div>
-  <!-- Atos ka Tasik teu Acan ?-->
-
-  <!-- POPUP INDRAMAYU-->
      <div id="myindrax" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
           <div class="modal-content">
@@ -530,9 +498,6 @@
           </div>
         </div>
     </div>
-  <!-- Atos ka Tasik teu Acan ?-->
-
-  <!-- POPUP PADANG-->
      <div id="mypdgx" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
           <div class="modal-content">
@@ -556,9 +521,6 @@
           </div>
         </div>
     </div>
-  <!-- Atos ka Padang teu Acan ?-->
-
-  <!--POP up Bandoeng Again deui Vversi alit-->
       <div id="mybandung" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
           <div class="modal-content">
@@ -577,7 +539,6 @@
           </div>
         </div>
       </div>
-  <!-- SUDAH sampai disini Bandoeng wae -->
   <script type='text/javascript' src='assets/plugins/jpopup/jquery.popup.js'></script>
   <script type="text/javascript">
       $(document).ready(function(){
