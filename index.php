@@ -204,6 +204,7 @@
                 <a target="#" style="font-size: 16px;">Kota Jakarta Utara</a><br><br>
                 <a target="#" style="font-size: 16px;">Kota Jakarta Selatan</a><br><br>
                 <a target="#" style="font-size: 16px;">Kota Jakarta Pusat</a><br><br>
+                <a target="#" style="font-size: 16px;">Kepulauan Seribu</a><br><br>
               </div>
 
               <div class="modal-footer">
@@ -631,6 +632,7 @@
               <a target="#" style="font-size: 16px;">Kota Jakarta Utara</a><br><br>
               <a target="#" style="font-size: 16px;">Kota Jakarta Selatan</a><br><br>
               <a target="#" style="font-size: 16px;">Kota Jakarta Pusat</a><br><br>
+              <a target="#" style="font-size: 16px;">Kepulauan Seribu</a><br><br>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
