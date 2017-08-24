@@ -95,7 +95,7 @@
                     <li class="col-sm-3 col-xs-6">
                       <div class="fff">
                           <div class="thumbnail">
-                            <a href="#"><img class="img-responsive" src="images/jtk.svg" alt=""></a>
+                            <a href="#myjekardah-lg" data-toggle="modal"><img class="img-responsive" src="images/jtk.svg" alt=""></a>
                           </div>
                        </div>
                     </li>
@@ -180,6 +180,30 @@
                 <a href="http://app.eclinic.id/bandung" target="_blank" style="font-size: 16px;">Kota Bandung</a> <br><br>
                 <a href="http://app.eclinic.id/bandungbarat" target="_blank">Kabupaten Bandung Barat</a> <br><br>
                 <a target="_blank">Kabupaten Bandung</a>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+      </div>
+
+      <div id="myjekardah-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
+          <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Jakarta</h4>
+              </div>
+
+              <div class="modal-body" style="padding: 10px">
+                <a href="http://app.eclinic.id/jaktim" target="_blank" style="font-size: 16px;">Kota Jakarta Timur</a> <br><br>
+                <a target="#" style="font-size: 16px;">Kota Jakarta Barat</a><br><br>
+                <a target="#" style="font-size: 16px;">Kota Jakarta Utara</a><br><br>
+                <a target="#" style="font-size: 16px;">Kota Jakarta Selatan</a><br><br>
+                <a target="#" style="font-size: 16px;">Kota Jakarta Pusat</a><br><br>
               </div>
 
               <div class="modal-footer">
@@ -385,7 +409,7 @@
             </div>
 
             <div class="col-xs-6">
-              <a class="thumbnail" href="#" data-toggle="modal">
+              <a class="thumbnail" href="#myjekardah" data-toggle="modal">
                 <img class="img-responsive" src="images/jkt2.svg" alt="">
               </a>
             </div>
@@ -586,6 +610,27 @@
               <a href="http://app.eclinic.id/bandung" target="_blank" style="font-size: 16px;">Kota Bandung</a> <br><br>
               <a href="http://app.eclinic.id/bandungbarat" target="_blank">Kabupaten Bandung Barat</a> <br><br>
               <a target="_blank">Kabupaten Bandung</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="myjekardah" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Jakarta</h4>
+            </div>
+            <div class="modal-body" style="padding: 10px">
+              <a href="http://app.eclinic.id/jaktim" target="_blank" style="font-size: 16px;">Kota Jakarta Timur</a> <br><br>
+              <a target="#" style="font-size: 16px;">Kota Jakarta Barat</a><br><br>
+              <a target="#" style="font-size: 16px;">Kota Jakarta Utara</a><br><br>
+              <a target="#" style="font-size: 16px;">Kota Jakarta Selatan</a><br><br>
+              <a target="#" style="font-size: 16px;">Kota Jakarta Pusat</a><br><br>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
