@@ -157,6 +157,18 @@
                     </li>
                   </ul>
                 </div>
+                <div class="item">
+                  <ul class="thumbnails">
+                    <li class="col-sm-3 col-xs-6">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a class="info" href="#mysiak-lg" data-toggle="modal"> <img src="images/kab_siak.svg" alt=""></a>
+                          <div class="overlay"></div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
 
           <nav>
             <ul class="">
@@ -366,6 +378,26 @@
     </div>
   </div>
 
+  <div id="mysiak-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
+      <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Siak</h4>
+          </div>
+
+          <div class="modal-body" style="padding: 10px">
+            <a href="http://app.eclinic.id/siak" target="_blank">Siak</a> <br><br>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+  </div>
+
 
       <div class="visible-sm visible-xs">
 
@@ -455,6 +487,18 @@
                 <img class="img-responsive" src="images/cianjur_portal.svg" alt="">
               </a>
             </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="col-xs-6">
+              <a class="thumbnail" href="#siak" data-toggle="modal">
+                <img class="img-responsive" src="images/kab_siak.svg" alt="">
+              </a>
+            </div>
+            <!-- <div class="col-xs-6">
+              <a class="thumbnail" href="#cianjur" data-toggle="modal">
+                <img class="img-responsive" src="images/cianjur_portal.svg" alt="">
+              </a>
+            </div> -->
           </div>
 
       </div>
@@ -633,6 +677,22 @@
               <a target="#" style="font-size: 16px;">Kota Jakarta Selatan</a><br><br>
               <a target="#" style="font-size: 16px;">Kota Jakarta Pusat</a><br><br>
               <a target="#" style="font-size: 16px;">Kepulauan Seribu</a><br><br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="siak" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Siak</h4>
+            </div>
+            <div class="modal-body" style="padding: 10px">
+              <a href="http://app.eclinic.id/siak" target="_blank">Siak</a> <br><br>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
