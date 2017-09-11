@@ -404,7 +404,7 @@
           </div>
 
           <div class="modal-body" style="padding: 10px">
-            <a href="http://app.eclinic.id/siak" target="_blank">Siak</a> <br><br>
+            <a href="http://app.eclinic.id/siak" target="_blank">Kabupaten Siak</a> <br><br>
           </div>
 
           <div class="modal-footer">
@@ -422,8 +422,9 @@
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Malang</h4>
           </div>
-
+          
           <div class="modal-body" style="padding: 10px">
+			<a target="#" style="font-size: 16px;">Kota Malang</a><br><br>  
             <a href="http://app.eclinic.id/kabmalang" target="_blank">Kabupaten Malang</a> <br><br>
           </div>
 
