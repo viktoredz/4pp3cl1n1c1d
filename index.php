@@ -103,7 +103,7 @@
                     <li class="col-sm-3 col-xs-6">
                         <div class="fff">
                           <div class="thumbnail ">
-                            <a href="#"><img class="img-responsive" src="images/tangerang.svg" alt=""></a>
+                            <a href="#mytangerang" data-toggle="modal"><img class="img-responsive" src="images/tangerang.svg" alt=""></a>
                           </div>
                         </div>
                     </li>
@@ -233,6 +233,27 @@
                 <a target="#" style="font-size: 16px;">Kota Jakarta Selatan</a><br><br>
                 <a target="#" style="font-size: 16px;">Kota Jakarta Pusat</a><br><br>
                 <a target="#" style="font-size: 16px;">Kepulauan Seribu</a><br><br>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+      </div>
+
+      <div id="mytangerang" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
+          <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Tangerang</h4>
+              </div>
+
+              <div class="modal-body" style="padding: 10px">
+                <a href="http://app.eclinic.id/tangerang" target="_blank" style="font-size: 16px;">Kota Tangerang</a> <br><br>
+                <a target="#" style="font-size: 16px;">Kabupaten Tangerang</a><br><br>
               </div>
 
               <div class="modal-footer">
@@ -422,9 +443,9 @@
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Malang</h4>
           </div>
-          
+
           <div class="modal-body" style="padding: 10px">
-			<a target="#" style="font-size: 16px;">Kota Malang</a><br><br>  
+			<a target="#" style="font-size: 16px;">Kota Malang</a><br><br>
             <a href="http://app.eclinic.id/kabmalang" target="_blank">Kabupaten Malang</a> <br><br>
           </div>
 
@@ -506,7 +527,7 @@
 
           <div class="col-xs-12">
             <div class="col-xs-6">
-              <a class="thumbnail" href="#" data-toggle="modal">
+              <a class="thumbnail" href="#tangerang" data-toggle="modal">
                 <img class="img-responsive" src="images/tangerang.svg" alt="">
               </a>
             </div>
@@ -652,6 +673,26 @@
          </div>
        </div>
    </div>
+
+     <div id="tangerang" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Tangerang</h4>
+            </div>
+
+            <div class="modal-body" style="padding: 10px">
+       <a href="http://app.eclinic.id/tangerang" target="_blank">Kota Tangerang</a> <br><br>
+             <a href="#" target="_blank">Kabupaten Tangerang</a>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
      <div id="bekasi" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
