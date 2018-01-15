@@ -183,6 +183,14 @@
                         </div>
                       </div>
                     </li>
+                    <li class="col-sm-3 col-xs-6">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a class="info" href="#bangsel-lg" data-toggle="modal"> <img src="images/bangka_selatan.svg" alt=""></a>
+                          <div class="overlay"></div>
+                        </div>
+                      </div>
+                    </li>
                   </ul>
                 </div>
 
@@ -205,9 +213,9 @@
               </div>
 
               <div class="modal-body" style="padding: 10px">
-                <a href="http://app.eclinic.id/bandung" target="_blank" style="font-size: 16px;">Kota Bandung</a> <br><br>
+                <a href="http://app.eclinic.id/bandung" target="_blank">Kota Bandung</a> <br><br>
                 <a href="http://app.eclinic.id/bandungbarat" target="_blank">Kabupaten Bandung Barat</a> <br><br>
-                <a target="_blank">Kabupaten Bandung</a>
+                <a href="http://app.eclinic.id/kabbandung" target="_blank">Kabupaten Bandung</a>
               </div>
 
               <div class="modal-footer">
@@ -227,12 +235,12 @@
               </div>
 
               <div class="modal-body" style="padding: 10px">
-                <a href="http://app.eclinic.id/jaktim" target="_blank" style="font-size: 16px;">Kota Jakarta Timur</a> <br><br>
-                <a target="#" style="font-size: 16px;">Kota Jakarta Barat</a><br><br>
-                <a target="#" style="font-size: 16px;">Kota Jakarta Utara</a><br><br>
-                <a target="#" style="font-size: 16px;">Kota Jakarta Selatan</a><br><br>
-                <a target="#" style="font-size: 16px;">Kota Jakarta Pusat</a><br><br>
-                <a target="#" style="font-size: 16px;">Kepulauan Seribu</a><br><br>
+                <a href="http://app.eclinic.id/jakpus" >Kota Jakarta Pusat</a><br><br>
+                <a href="http://app.eclinic.id/jaktim" target="_blank" >Kota Jakarta Timur</a> <br><br>
+                <a target="#" >Kota Jakarta Barat</a><br><br>
+                <a target="#" >Kota Jakarta Utara</a><br><br>
+                <a target="#" >Kota Jakarta Selatan</a><br><br>
+                <a target="#" >Kepulauan Seribu</a><br><br>
               </div>
 
               <div class="modal-footer">
@@ -476,6 +484,26 @@
   </div>
   </div>
 
+  <div id="bangsel-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
+      <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Bangka</h4>
+          </div>
+
+          <div class="modal-body" style="padding: 10px">
+            <a href="http://app.eclinic.id/bangkaselatan" target="_blank">Kabupaten Bangka Selatan</a> <br><br>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+  </div>
+
       <div class="visible-sm visible-xs">
 
           <div class="page-header col-xs-12">
@@ -584,11 +612,11 @@
                 <img class="img-responsive" src="images/blitar.svg" alt="">
               </a>
             </div>
-            <!-- <div class="col-xs-6">
-              <a class="thumbnail" href="#malang" data-toggle="modal">
-                <img class="img-responsive" src="images/kab_malang.svg" alt="">
+            <div class="col-xs-6">
+              <a class="thumbnail" href="#bangsel" data-toggle="modal">
+                <img class="img-responsive" src="images/bangka_selatan.svg" alt="">
               </a>
-            </div> -->
+            </div>
           </div>
 
       </div>
@@ -835,6 +863,22 @@
             </div>
             <div class="modal-body" style="padding: 10px">
               <a href="http://app.eclinic.id/kabblitar" target="_blank">Kabupaten Blitar</a> <br><br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="bangsel" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Bangka</h4>
+            </div>
+            <div class="modal-body" style="padding: 10px">
+              <a href="http://app.eclinic.id/bangkaselatan" target="_blank">Kabupaten Bangka Selatan</a> <br><br>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
