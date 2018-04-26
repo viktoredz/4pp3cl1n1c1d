@@ -203,6 +203,14 @@
                         </div>
                       </div>
                     </li>
+                    <li class="col-sm-3 col-xs-6">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a class="info" href="#singkawang-lg" data-toggle="modal"> <img src="images/singkawang.svg" alt=""></a>
+                          <div class="overlay"></div>
+                        </div>
+                      </div>
+                    </li>
 
                   </ul>
                 </div>
@@ -535,6 +543,25 @@
       </div>
   </div>
   </div>
+  <div id="singkawang-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
+      <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Singkawang</h4>
+          </div>
+
+          <div class="modal-body" style="padding: 10px">
+            <a href="http://app.eclinic.id/singkawang" target="_blank">Kota Singkawang</a> <br><br>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+  </div>
 
       <div class="visible-sm visible-xs">
 
@@ -656,11 +683,11 @@
                 <img class="img-responsive" src="images/medan.svg" alt="">
               </a>
             </div>
-            <!-- <div class="col-xs-6">
-              <a class="thumbnail" href="#bangsel" data-toggle="modal">
-                <img class="img-responsive" src="images/bangka_selatan.svg" alt="">
+            <div class="col-xs-6">
+              <a class="thumbnail" href="#singkawang" data-toggle="modal">
+                <img class="img-responsive" src="images/singkawang.svg" alt="">
               </a>
-            </div> -->
+            </div>
           </div>
 
       </div>
@@ -939,6 +966,22 @@
             </div>
             <div class="modal-body" style="padding: 10px">
               <a href="http://app.eclinic.id/medan" target="_blank">Kota Medan</a> <br><br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="singkawang" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Singkawang</h4>
+            </div>
+            <div class="modal-body" style="padding: 10px">
+              <a href="http://app.eclinic.id/singkawang" target="_blank">Kota Singkawang</a> <br><br>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
