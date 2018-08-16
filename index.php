@@ -289,7 +289,7 @@
                 <a href="http://app.eclinic.id/jaktim" target="_blank" >Kota Jakarta Timur</a> <br><br>
                 <a target="#" >Kota Jakarta Barat</a><br><br>
                 <a target="#" >Kota Jakarta Utara</a><br><br>
-                <a target="#" >Kota Jakarta Selatan</a><br><br>
+                <a href="http://app.eclinic.id/jaksel" >Kota Jakarta Selatan</a><br><br>
                 <a target="#" >Kepulauan Seribu</a><br><br>
               </div>
 
@@ -969,7 +969,7 @@
             <div class="modal-body" style="padding: 10px">
               <a href="http://app.eclinic.id/bandung" target="_blank" style="font-size: 16px;">Kota Bandung</a> <br><br>
               <a href="http://app.eclinic.id/bandungbarat" target="_blank">Kabupaten Bandung Barat</a> <br><br>
-              <a target="_blank">Kabupaten Bandung</a>
+              <a href="http://app.eclinic.id/kabbandung">Kabupaten Bandung</a>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
@@ -989,8 +989,8 @@
               <a href="http://app.eclinic.id/jaktim" target="_blank" style="font-size: 16px;">Kota Jakarta Timur</a> <br><br>
               <a target="#" style="font-size: 16px;">Kota Jakarta Barat</a><br><br>
               <a target="#" style="font-size: 16px;">Kota Jakarta Utara</a><br><br>
-              <a target="#" style="font-size: 16px;">Kota Jakarta Selatan</a><br><br>
-              <a target="#" style="font-size: 16px;">Kota Jakarta Pusat</a><br><br>
+              <a href="http://app.eclinic.id/jaksel" style="font-size: 16px;">Kota Jakarta Selatan</a><br><br>
+              <a href="http://app.eclinic.id/jaktim" style="font-size: 16px;">Kota Jakarta Pusat</a><br><br>
               <a target="#" style="font-size: 16px;">Kepulauan Seribu</a><br><br>
             </div>
             <div class="modal-footer">
