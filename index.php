@@ -239,6 +239,14 @@
                         </div>
                       </div>
                     </li>
+                    <li class="col-sm-3 col-xs-6">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a class="info" href="#cilegon-lg" data-toggle="modal"> <img src="images/kota_cilegon_portal.svg" alt=""></a>
+                          <div class="overlay"></div>
+                        </div>
+                      </div>
+                    </li>
 
                   </ul>
                 </div>
@@ -648,6 +656,25 @@
       </div>
     </div>
   </div>
+  <div id="cilegon-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
+      <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Cilegon</h4>
+          </div>
+
+          <div class="modal-body" style="padding: 10px">
+            <a href="http://app.eclinic.id/cilegon" target="_blank">Kota Cilegon</a> <br><br>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+    </div>
+  </div>
 
       <div class="visible-sm visible-xs">
 
@@ -791,6 +818,11 @@
             <div class="col-xs-6">
               <a class="thumbnail" href="#bengkayang" data-toggle="modal">
                 <img class="img-responsive" src="images/bengkayang.svg" alt="">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <a class="thumbnail" href="#cilegon" data-toggle="modal">
+                <img class="img-responsive" src="images/kota_cilegon_portal.svg" alt="">
               </a>
             </div>
 
@@ -1136,6 +1168,22 @@
             </div>
             <div class="modal-body" style="padding: 10px">
               <a href="http://app.eclinic.id/bengkayang" target="_blank">Kota Bengkayang</a> <br><br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="cilegon" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Cilegon</h4>
+            </div>
+            <div class="modal-body" style="padding: 10px">
+              <a href="http://app.eclinic.id/cilegon" target="_blank">Kota Cilegon</a> <br><br>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
