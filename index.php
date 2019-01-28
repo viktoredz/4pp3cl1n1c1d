@@ -885,7 +885,7 @@
         </div>
         <div class="col-xs-6">
           <a class="thumbnail" href="#citasehat" data-toggle="modal">
-            <img class="img-responsive" src="images/citasehat.svg" alt="">
+            <img class="img-responsive" src="images/citra_sehat.svg" alt="">
           </a>
         </div>
       </div>
