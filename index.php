@@ -247,11 +247,25 @@
                         </div>
                       </div>
                     </li>
+                    <li class="col-sm-3 col-xs-6">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a class="info" href="#puspelkes-lg" data-toggle="modal"> <img src="images/puspelkes.svg" alt=""></a>
+                          <div class="overlay"></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-sm-3 col-xs-6">
+                      <div class="fff">
+                        <div class="thumbnail">
+                          <a class="info" href="#citasehat-lg" data-toggle="modal"> <img src="images/citra_sehat.svg" alt=""></a>
+                          <div class="overlay"></div>
+                        </div>
+                      </div>
+                    </li>
 
                   </ul>
                 </div>
-
-
           <nav>
             <ul class="">
               <span data-slide="prev" class="jssora03l hidden-xs" style="top:50px;left:52px;width:55px;height:55px;" data-autocenter="2" href="#myCarousel"></span>
@@ -675,164 +689,212 @@
       </div>
     </div>
   </div>
+  <div id="puspelkes-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
+      <div class="modal-content">
 
-      <div class="visible-sm visible-xs">
-
-          <div class="page-header col-xs-12">
-             <img class="logo-eclinic" src="assets/dist/img/logo_eclinic_kuning.svg" style="margin-top:-10px;">
-             <h3 style="text-align: center;padding-top: 0px;color: white;">Selamat datang di web Portal eClinic</h3>
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Pusat Pelayanan Kesehatan DKI Jakarta</h4>
           </div>
 
-          <div class="col-xs-12">
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#mybandung" data-toggle="modal">
-                <img class="img-responsive" src="images/bdg.svg" alt="">
-              </a>
-            </div>
-
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#mytasikx" data-toggle="modal">
-                <img class="img-responsive" src="images/tasik.svg" alt="">
-              </a>
-            </div>
+          <div class="modal-body" style="padding: 10px">
+            <a href="http://app.eclinic.id/puspelkesdki" target="_blank">Pusat Pelayanan Kesehatan DKI Jakarta</a> <br><br>
           </div>
 
-          <div class="col-xs-12">
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#mypdgx" data-toggle="modal">
-                <img class="img-responsive" src="images/pdg.svg" alt="">
-              </a>
-            </div>
-
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#myindrax" data-toggle="modal">
-                <img class="img-responsive" src="images/indramayu3.svg" alt="">
-              </a>
-            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
           </div>
-
-          <div class="col-xs-12">
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#mymajax" data-toggle="modal">
-                <img class="img-responsive" src="images/majalengka.svg" alt="">
-              </a>
-            </div>
-
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#myjekardah" data-toggle="modal">
-                <img class="img-responsive" src="images/jkt2.svg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-xs-12">
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#tangerang" data-toggle="modal">
-                <img class="img-responsive" src="images/tangerang.svg" alt="">
-              </a>
-            </div>
-
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#bekasi" data-toggle="modal">
-                <img class="img-responsive" src="images/bekasi.svg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-xs-12">
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#" data-toggle="modal">
-                <img class="img-responsive" src="images/jogjaistimewa.svg" alt="">
-              </a>
-            </div>
-
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#" data-toggle="modal">
-                <img class="img-responsive" src="images/bogor.svg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-xs-12">
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#ciamis" data-toggle="modal">
-                <img class="img-responsive" src="images/ciamis.svg" alt="">
-              </a>
-            </div>
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#cianjur" data-toggle="modal">
-                <img class="img-responsive" src="images/cianjur_portal.svg" alt="">
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12">
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#siak" data-toggle="modal">
-                <img class="img-responsive" src="images/kab_siak.svg" alt="">
-              </a>
-            </div>
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#malang" data-toggle="modal">
-                <img class="img-responsive" src="images/kab_malang.svg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-xs-12">
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#blitar" data-toggle="modal">
-                <img class="img-responsive" src="images/blitar.svg" alt="">
-              </a>
-            </div>
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#bangsel" data-toggle="modal">
-                <img class="img-responsive" src="images/bangka_selatan.svg" alt="">
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12">
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#medan" data-toggle="modal">
-                <img class="img-responsive" src="images/medan.svg" alt="">
-              </a>
-            </div>
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#singkawang" data-toggle="modal">
-                <img class="img-responsive" src="images/singkawang.svg" alt="">
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12">
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#serang" data-toggle="modal">
-                <img class="img-responsive" src="images/kota_serang.svg" alt="">
-              </a>
-            </div>
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#palembang" data-toggle="modal">
-                <img class="img-responsive" src="images/kota_palembang.svg" alt="">
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12">
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#bengkayang" data-toggle="modal">
-                <img class="img-responsive" src="images/bengkayang.svg" alt="">
-              </a>
-            </div>
-            <div class="col-xs-6">
-              <a class="thumbnail" href="#cilegon" data-toggle="modal">
-                <img class="img-responsive" src="images/kota_cilegon_portal.svg" alt="">
-              </a>
-            </div>
-
-          </div>
-
       </div>
+    </div>
+  </div>
+  <div id="citasehat-lg" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 50%">
+      <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Cita Sehat</h4>
+          </div>
+
+          <div class="modal-body" style="padding: 10px">
+            <a href="http://app.eclinic.id/citasehat" target="_blank">Cita Sehat</a> <br><br>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="visible-sm visible-xs">
+
+      <div class="page-header col-xs-12">
+         <img class="logo-eclinic" src="assets/dist/img/logo_eclinic_kuning.svg" style="margin-top:-10px;">
+         <h3 style="text-align: center;padding-top: 0px;color: white;">Selamat datang di web Portal eClinic</h3>
+      </div>
+
+      <div class="col-xs-12">
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#mybandung" data-toggle="modal">
+            <img class="img-responsive" src="images/bdg.svg" alt="">
+          </a>
+        </div>
+
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#mytasikx" data-toggle="modal">
+            <img class="img-responsive" src="images/tasik.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-xs-12">
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#mypdgx" data-toggle="modal">
+            <img class="img-responsive" src="images/pdg.svg" alt="">
+          </a>
+        </div>
+
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#myindrax" data-toggle="modal">
+            <img class="img-responsive" src="images/indramayu3.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-xs-12">
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#mymajax" data-toggle="modal">
+            <img class="img-responsive" src="images/majalengka.svg" alt="">
+          </a>
+        </div>
+
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#myjekardah" data-toggle="modal">
+            <img class="img-responsive" src="images/jkt2.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-xs-12">
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#tangerang" data-toggle="modal">
+            <img class="img-responsive" src="images/tangerang.svg" alt="">
+          </a>
+        </div>
+
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#bekasi" data-toggle="modal">
+            <img class="img-responsive" src="images/bekasi.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-xs-12">
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#" data-toggle="modal">
+            <img class="img-responsive" src="images/jogjaistimewa.svg" alt="">
+          </a>
+        </div>
+
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#" data-toggle="modal">
+            <img class="img-responsive" src="images/bogor.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-xs-12">
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#ciamis" data-toggle="modal">
+            <img class="img-responsive" src="images/ciamis.svg" alt="">
+          </a>
+        </div>
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#cianjur" data-toggle="modal">
+            <img class="img-responsive" src="images/cianjur_portal.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#siak" data-toggle="modal">
+            <img class="img-responsive" src="images/kab_siak.svg" alt="">
+          </a>
+        </div>
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#malang" data-toggle="modal">
+            <img class="img-responsive" src="images/kab_malang.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-xs-12">
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#blitar" data-toggle="modal">
+            <img class="img-responsive" src="images/blitar.svg" alt="">
+          </a>
+        </div>
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#bangsel" data-toggle="modal">
+            <img class="img-responsive" src="images/bangka_selatan.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#medan" data-toggle="modal">
+            <img class="img-responsive" src="images/medan.svg" alt="">
+          </a>
+        </div>
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#singkawang" data-toggle="modal">
+            <img class="img-responsive" src="images/singkawang.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#serang" data-toggle="modal">
+            <img class="img-responsive" src="images/kota_serang.svg" alt="">
+          </a>
+        </div>
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#palembang" data-toggle="modal">
+            <img class="img-responsive" src="images/kota_palembang.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#bengkayang" data-toggle="modal">
+            <img class="img-responsive" src="images/bengkayang.svg" alt="">
+          </a>
+        </div>
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#cilegon" data-toggle="modal">
+            <img class="img-responsive" src="images/kota_cilegon_portal.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#puspelkes" data-toggle="modal">
+            <img class="img-responsive" src="images/puspelkes.svg" alt="">
+          </a>
+        </div>
+        <div class="col-xs-6">
+          <a class="thumbnail" href="#citasehat" data-toggle="modal">
+            <img class="img-responsive" src="images/citasehat.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+  </div>
 
   <footer>
     <div style="text-align: center; clear: both;padding-top: 80px">
-      <p style="color: white;">Powered by:<br><img class="logo-infokes" src="assets/dist/img/logo.png" style="width:100px;"></p>
+      <p style="color: white;">Powered by:<br><img class="logo-infokes" src="assets/dist/img/logo_infokes_white.svg" style="width:100px;"></p>
     </div>
   </footer>
 
@@ -1184,6 +1246,38 @@
             </div>
             <div class="modal-body" style="padding: 10px">
               <a href="http://app.eclinic.id/cilegon" target="_blank">Kota Cilegon</a> <br><br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="puspelkes" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Pusat Pelayanan Kesehatan DKI Jakarta</h4>
+            </div>
+            <div class="modal-body" style="padding: 10px">
+              <a href="http://app.eclinic.id/puspelkesdki" target="_blank">Pusat Pelayanan Kesehatan DKI Jakarta</a> <br><br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="citasehat" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" style="vertical-align: middle;padding:20px;top:25%; right:0px;left:-5px;position: fixed;width: 100%">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">eClinic Wilayah Cita Sehat</h4>
+            </div>
+            <div class="modal-body" style="padding: 10px">
+              <a href="http://app.eclinic.id/citasehat" target="_blank">Cita Sehat</a> <br><br>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
